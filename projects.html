@@ -12,8 +12,10 @@
 
         <div class="grid-container-nav">
 
-            <a href="index.html"><img src="images/footer-logo.png" class="logo scalable"></a>
-            
+            <a href="index.html">
+                <img src="images/footer-logo.png" class="logo scalable">
+            </a>
+             
             <button class="nav-button nav-item-1 scalable bg-green" onclick="document.location='about-me.html'">About</button>
             <button class="nav-button nav-item-2 scalable bg-blue" onclick="document.location='projects.html'">Work</button>
             
@@ -21,11 +23,12 @@
 
         <h2 class="middle-align">Recent projects...</h2>
 
-        <ul class="breadcrumbs">
+        <ul class="breadcrumbs middle-align">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Recent projects</a></li>
+            <li>Recent projects</li>
         </ul>
 
+        <hr>
 
         <div class="grid-container-twin mockup-card">
         
@@ -77,29 +80,29 @@
         </div>
 
         <footer>
-            
+            <hr>
+
             <div class="grid-container-footer">
-                <div>
-                    <ul> 
-                        <li class="footer-link-orange" onclick="document.location='about-me.html'">About</li>
-                        <li class="footer-link-blue" onclick="document.location='projects.html'">Work</li>
-                        <li class="footer-link-green" onclick="window.open('mailto:jozhou.uxui@gmail.com')">Email</li>
-                    </ul>
-                </div>
+
+                <ul class="footer-list-1"> 
+                    <li><a href="about-me.html" class="hover-orange">About</a></li>
+                    <li><a href="projects.html" class="hover-blue">Work</a></li>
+                    <li><a href="mailto:jozhou.uxui@gmail.com" class="hover-green">Email</a></li>
+                </ul>
                 
-                <div>
-                    <img src="images/footer-logo.png" alt="Desktop Mockup" class="scalable" onclick="document.location='index.html'">
-                </div>
+                <a href="index.html" class="footer-logo">
+                    <img src="images/footer-logo.png" class="scalable">
+                </a>
     
-                <div>
-                    <ul>
-                        <li class="footer-link-green" onclick="window.open('https://www.linkedin.com/in/jozhou-uxui/')">LinkedIn</li>
-                        <li class="footer-link-green" onclick="window.open('https://www.instagram.com/sgreentime/')">Instagram</li>
-                        <li class="footer-link-orange" onclick="window.open('https://github.com/J000Zhou')">Github</li>
-                    </ul>
-                </div>
+                <ul class="footer-list-2">
+                    <li><a href="https://www.linkedin.com/in/jozhou-uxui/" target="_blank" class="hover-green">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/sgreentime/" target="blank" class="hover-green">Instagram</a></li>
+                    <li><a href="https://github.com/J000Zhou" target="_blank" class="hover-orange">Github</a></li>
+                </ul>
+
             </div>
         </footer>
+
     <script src="js/index.js"></script>
     </body>
 </html>
