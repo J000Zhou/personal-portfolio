@@ -612,6 +612,12 @@ h4.link {
         font-size: 16px;
     }
 
+    .grid-container-triplet img {
+        height: 200px;
+        width: 300px;
+        margin: 10 0 10;
+    }
+
     
 
     
