@@ -6,10 +6,7 @@
 
 */
 
-@font-face {
-    font-family: 'gopher';
-    src: url("../font/Gopher-Black.otf") format("opentype");
-}
+
 
 @font-face {
     font-family: 'SourceSansPro';
@@ -51,18 +48,22 @@ hr {
 
 .bg-green {
     background-color: #5FA47B;
+    cursor: pointer;
 }
 
 .bg-blue {
-    background-color: #353D87;;
+    background-color: #353D87;
+    cursor: pointer;
 }
 
 .bg-orange {
     background-color: #C2663D;
+    cursor: pointer;
 }
 
 .bg-yellow {
     background-color: #EBB45A;
+    cursor: pointer;
 }
 
 .bg-grey {
@@ -110,15 +111,6 @@ mark.green {
     ----------------------
 */
 
-.scalable {
-    transition-duration: .2s;
-}
-    
-.scalable:hover {
-    transform: scale(1.25);
-    cursor:pointer;
-}
-
 .tiltable {
     transition-duration: .2s;
 }
@@ -152,32 +144,32 @@ p {
 }
 
 h1 {
-    font-size: 65px;
-    font-family: gopher, sans-serif;
+    font-size: 56px;
+    font-family: SourceSansProBold;
     margin: 20px 0 50px;
 }
 
 h2 {
     font-size: 48px;
-    font-family: gopher, sans-serif;
+    font-family: SourceSansProBold, sans-serif;
     margin: 0 0 20px;
 }
 
 h3 {
     font-size: 36px;
-    font-family: gopher, sans-serif;
+    font-family: SourceSansProBold, sans-serif;
     margin: 0 0 20px;
 }
 
 h4 {
     font-size: 24px;
-    font-family: gopher, sans-serif;
+    font-family: SourceSansProBold, sans-serif;
     margin: 0 0 20px;
 }
 
 h5 {
     font-size: 24px;
-    font-family: gopher, sans-serif;
+    font-family: SourceSansProBold, sans-serif;
     margin: 0 0 20px;
 }
 
@@ -200,8 +192,8 @@ ul {
 
 .grid-container-nav {
     display: grid;
-    grid-template-columns: 15% auto 20% 20%;
-    grid-gap: 20px;
+    grid-template-columns: 15% auto 18% 18%;
+    grid-gap: 40px;
     margin-bottom: 50px;
 }
 
@@ -224,6 +216,11 @@ ul {
     max-width: 280px;
     margin: auto 0;
     font-size: calc(10px + 1.2vw);
+    cursor: pointer;
+}
+
+.nav-button:hover {
+color: #F5F0E0;
 }
 
 
@@ -291,7 +288,7 @@ footer li {
 footer li a {
     color:#000000;
     font-size: 24px;
-    font-family: gopher, sans-serif;
+    font-family: sourcesansprobold;
     font-weight: normal;
     transition-duration: .2s;
 }
@@ -426,7 +423,7 @@ button {
     height: 45%;
     max-height: 70px;
     color:white;
-    font-family:gopher, sans-serif;
+    font-family:sourcesansprobold;
     font-size: 24px;
     font-weight: bold;
     border: 6px solid #000000;
